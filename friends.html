@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="friends.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+
+    <div class="NavigationBar">
+        <header>
+            <h5>SkyWalkers</h5>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="friends.html">friends</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+   </div>
+
+   <div>
+
+    <h1 style="text-align: center; margin: 5%;">Chat With friends online</h1>
+
+    <div class="friends">
+        <h1 style="margin-left: 24px; background-color:aquamarine;">Profiles</h1>
+        <div class="flex">
+            <div class="ProfileFlex"><img style="border: black solid 1px; margin: 1%; border-radius: 10%;" src="Images/login.jpg" alt="profile" width="150 " height="100"><h3 style="color:darkgoldenrod; text-align: center;">Kill EdWard</h3></div> 
+            <p style="margin-left: 3%; margin: 20px;">I am Bangile Mahlamvu. From Delft but my friends call me kill edward. I think the name came up when we was all playing krunker and it has been my name since then. <br><a href="https://krunker.io/?game=AFR:h50ns"><button id="playButton">Let's Play</button></a></p>
+            <a class="popupGame" href="https://krunker.io/?game=AFR:h50ns"><img style="border: #FFD700 solid 1px; border-radius: 1em;" src="Images/Krunker.png" alt="foodfight" width="250" height="200"></a>
+            
+        </div>
+        <div class="flex">
+            <div class="ProfileFlex"><img style="border: black solid 1px; margin: 1%; border-radius: 10%;" src="Images/login.jpg" alt="profile" width="150 " height="100"><h3 style="color:darkgoldenrod; text-align: center;">MagMa</h3></div> 
+            <p style="margin-left: 3%; margin: 20px;">I am Gobu Palele I like playing girls gammes cause my feminine side allows me to. Btw i don't have enough testosterone in me. Ohw and I'm also a Geographer and i don't have a girl in Cape Town. <br><a href="https://www.cartoonnetworkhq.com/games/dc-super-hero-girls-food-fight/play"><button id="playButton">Let's Play</button></a></p>
+            <a class="popupGame" href="https://www.cartoonnetworkhq.com/games/dc-super-hero-girls-food-fight/play"><img style="border: #FFD700 solid 1px; border-radius: 1em;" src="images/foodfight.jpg" alt="foodfight" width="250" height="200"></a>
+            
+        </div>
+        <div class="flex">
+            <div class="ProfileFlex"><img style="border: black solid 1px; margin: 1%; border-radius: 10%;" src="Images/login.jpg" alt="profile" width="150 " height="100"><h3 style="color:darkgoldenrod; text-align: center;">Killer B</h3></div> 
+            <p style="margin-left: 3%; margin: 20px;">I am Bangile Mahlamvu. From Delft but my friends call me kill edward. I think the name came up when we was all playing krunker and it has been my name since then. <br><a href="https://www.cartoonnetworkhq.com/games/summer-camp-island-bubble-trouble/play"><button id="playButton">Let's Play</button></a></p>
+            <a class="popupGame" href="https://www.cartoonnetworkhq.com/games/summer-camp-island-bubble-trouble/play"><img style="border: #FFD700 solid 1px; border-radius: 1em;" src="images/bubbletrouble.webp" alt="foodfight" width="250" height="200"></a>
+            
+        </div>
+        <div class="flex">
+            <div class="ProfileFlex"><img style="border: black solid 1px; margin: 1%; border-radius: 10%;" src="Images/login.jpg" alt="profile" width="150 " height="100"><h3 style="color:darkgoldenrod; text-align: center;">Mulimisi</h3></div> 
+            <p style="margin-left: 3%; margin: 20px;">I am Bangile Mahlamvu. From Delft but my friends call me kill edward. I think the name came up when we was all playing krunker and it has been my name since then. <br><a href="https://www.cartoonnetworkhq.com/games/dc-super-hero-girls-food-fight/play"><button id="playButton">Let's Play</button></a></p>
+            <a class="popupGame" href="https://www.cartoonnetworkhq.com/games/dc-super-hero-girls-food-fight/play"><img style="border: #FFD700 solid 1px; border-radius: 1em;" src="images/foodfight.jpg" alt="foodfight" width="250" height="200"></a>
+            
+        </div>
+        <div class="flex">
+            <div class="ProfileFlex"><img style="border: black solid 1px; margin: 1%; border-radius: 10%;" src="Images/login.jpg" alt="profile" width="150 " height="100"><h3 style="color:darkgoldenrod; text-align: center;">Kida Eg</h3></div> 
+            <p style="margin-left: 3%; margin: 20px;">I am Bangile Mahlamvu. From Delft but my friends call me kill edward. I think the name came up when we was all playing krunker and it has been my name since then. <br><a href="https://www.cartoonnetworkhq.com/games/dc-super-hero-girls-food-fight/play"><button id="playButton">Let's Play</button></a></p>
+            <a class="popupGame" href="https://www.cartoonnetworkhq.com/games/dc-super-hero-girls-food-fight/play"><img style="border: #FFD700 solid 1px; border-radius: 1em;" src="images/foodfight.jpg" alt="foodfight" width="250" height="200"></a>
+            
+        </div>
+    </div>
+    
+<div class="container">
+<button class="btn btn-info btn-chat" type="button" onclick="openChat()">Chat</button>
+<div class="chatbox" id="chatbox">
+    <h2>Message</h2>
+    <form class="form-container">
+        <textarea type="text" placeholder="Type Text..." name="msg" required=""></textarea>
+        <button type="submit" class="btn send btn-info btn-lg btn-send">Send</button>
+        <button type="button" class="btn btn-danger btn-lg btn-close" onclick="closeChat()">Close</button>
+    </form>
+
+</div>
+</div>
+
+
+
+   </div>
+ 
+</body>
+<script>
+    function openChat(){
+ document.getelementById('chatbox').style.display='block';
+ $('.btn-chat').hide();
+}
+function closeChat(){
+ document.grtElementById('chatbox').style.display='none';
+ $('.btn-chat').show();
+}
+$('form').submit(function(){
+ var text=$(this).find("textarea[name='msg']").val();
+ alert(text);
+});
+</script>   
+</html>

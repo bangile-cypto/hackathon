@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.NavigationBar{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background: #FFFF00;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h5{
+    float: left;
+    padding: 10px 0;
+    font-size: 45px;
+    padding-left: 10pxl;
+}
+
+nav{
+    float: right;
+    
+}
+nav ul{
+    list-style: none;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: darkgray;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: #00308F;
+    font-size: 40px;
+}
+
+.flex{
+    display: flex;
+    padding-left: 20%;
+    
+}
+
+.games{
+   margin: 3%;
+   box-shadow: #eee;
+   border-radius: 1em;
+}
+
+.games:hover{
+    border-radius: 1em;
+    box-shadow: 1px #eee;
+    transition: .4s;
+    border: #eee solid 1px;
+}
+
+/* .games:hover{
+    
+} */
+
+.gameDev{
+    left: 1%;
+    right: 15%;
+    position: static;
+    width:37%;
+    height: 30%;
+}
+
+
+

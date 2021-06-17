@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.NavigationBar{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background: #FFFF00;
+    border: #FFFF00 solid 0;
+    border-radius: 10px;
+    
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h5{
+    float: left;
+    padding: 10px 0;
+    font-size: 45px;
+    padding-left: 10pxl;
+}
+
+nav{
+    float: right;       
+    
+}
+nav ul{
+    list-style: none;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: darkgray;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin: 22px;
+}
+
+.line{
+    width: 80%;
+    color: black;
+    border: #444 solid 1px;
+    right: 40px;
+    left: 10%;
+    position: sticky;
+}
+
+button{
+    margin: 20px 0;
+    background-color: #FFFF00;
+    border: #444 solid 1px;
+    border-radius: 2px;
+    width: 80px;
+    height: 40px;
+    transition: .4s;
+}
+
+.submissionArea{
+    position: absolute;
+    left: 14%;
+    margin: 40px;
+}
+
+.nameInput{
+    width: 500px;
+    height: 32px;
+}
+
+.emailInput{
+    width: 500px;
+    height: 32px;
+}
+
+textarea{
+    width: 500px;
+    height: 270px;
+}
+
+
+

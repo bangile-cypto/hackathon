@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.NavigationBar{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background: #FFFF00;
+    border: #FFFF00 solid 0;
+    border-radius: 10px;
+    
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h5{
+    float: left;
+    padding: 10px 0;
+    font-size: 45px;
+    padding-left: 10pxl;
+}
+
+nav{
+    float: right;       
+    
+}
+nav ul{
+    list-style: none;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: darkgray;
+}
+
+.flex{
+    display: flex;
+    margin: 3%;
+    background-color: #eee;
+    margin-top: 1%;
+}
+
+.friends{
+    width: 60%;
+    height: 44%;
+    position: static;
+    left: 1%;
+    top: 27%;
+    right: 0;
+    
+
+}
+
+.LetsMakeAnotherFlexForFeaturedGames{
+    display: flex;
+}
+
+/* .popupGame{
+
+} */
+
+#playButton{
+    margin: 20px;
+    background-color: #FFFF00;
+    border: #444 solid 1px;
+    border-radius: 2px;
+    width: 80px;
+    height: 40px;
+    transition: .4s;
+}
+
+#playButton:hover{
+    background-color: darkorange;
+}
+
+button:checked ~ .popupGame{
+    opacity: 1;
+    visibility: hidden;
+}
+
+
+
+/* .container{
+    position: fixed;
+    right: 12%;
+    bottom: 0%;
+    width: 20%;
+
+} */
+
+.btn-chat{
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    width: 20%;
+}
+
+#chatbox{
+    /* display:; */
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    z-index: 9;
+}
+
+.form-container{
+    max-width: 300px;
+    padding: 10px;
+    background: white;
+}
+
+.form-container textarea{
+    width: 100%;
+    min-height: 200px;
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+    font-size: 15px;
+}
+
+.form-container textarea:focus{
+    background: #ddd;
+    outline: none;
+}
+
+.btn-send, .btn-close{
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn-send{
+    background-color: #3457D5;
+}
+
+.btn-close{
+    background-color: #b22222;
+}
+
+
+.btn-send, .btn-close, .btn-chat:hover{
+    opacity: 1;
+}
+
+h2{
+    background: #FFC72C;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+

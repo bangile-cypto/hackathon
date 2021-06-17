@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <div>
+        <div class="NavigationBar">
+            <header>
+                <h5>SkyWalkers</h5>
+    
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="friends.html">friends</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        
+   </div>
+<div>
+    <h1>Contact</h1>
+    <div class="line"></div>
+    <h2 style="text-align: center; margin: 12px; color: coral;"><u>Hey there Skywalker</u></h2>
+    <p style="text-align: center; font-size: 21px; margin: 16px;">If you enjoyed our service and have any recommendation on how we can improve our site please let us know here.</p>
+    
+    <div class="form-reachOut">
+        <form class="submissionArea">
+            <input name="name" class="nameInput" type="text" placeholder="Enter your name" id="name"><br></br>
+            <input name="email" class="emailInput" type="email" placeholder="example@gmail.com" id="email"><br></br>
+            <textarea name="message" rows="5" data-rule="required" type="text" placeholder="type your message..." id="message"></textarea><br>
+            <button type="submit" onclick="contactSend()">send</button>
+        </form>
+
+    </div>
+
+    </div>
+    
+       <div>
+    
+        <script>
+             function contactSend() {
+        var link =
+          "mailto:gobupele@gmail.com" + 
+          "?cc=" +
+          encodeURIComponent(document.getElementById("email").value) +
+          "&subject=" +
+          document.getElementById("name").value +
+          "&body=" +
+          encodeURIComponent(document.getElementById("message").value);
+        window.location.href = link;
+      }
+        </script>
+
+    
+</div>
+    </div>
+
+
+
+</body>
+</html>
