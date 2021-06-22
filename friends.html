@@ -26,21 +26,22 @@
    </div>
 
    <div>
-
-    <h1 style="text-align: center; margin: 5%;">Chat With friends online</h1>
+<center>
+    <u><h1 style="margin: 5%; font-size: 42px; background-color: aquamarine; width: 500px;">Chat With friends online</h1></u>
+</center>
 
     <div class="friends">
         <h1 style="margin-left: 24px; background-color:aquamarine;">Profiles</h1>
         <div class="flex">
             <div class="ProfileFlex"><img style="border: black solid 1px; margin: 1%; border-radius: 10%;" src="Images/login.jpg" alt="profile" width="150 " height="100"><h3 style="color:darkgoldenrod; text-align: center;">Kill EdWard</h3></div> 
-            <p style="margin-left: 3%; margin: 20px;">I am Bangile Mahlamvu. From Delft but my friends call me kill edward. I think the name came up when we was all playing krunker and it has been my name since then. <br><a href="https://krunker.io/?game=AFR:h50ns"><button id="playButton">Let's Play</button></a></p>
-            <a class="popupGame" href="https://krunker.io/?game=AFR:h50ns"><img style="border: #FFD700 solid 1px; border-radius: 1em;" src="Images/Krunker.png" alt="foodfight" width="250" height="200"></a>
+            <p style="margin-left: 3%; margin: 20px;">I am Bangile Mahlamvu. From Delft but my friends call me kill edward. I think the name came up when we was all playing krunker and it has been my name since then. <br><a href="https://krunker.io/?game=AFR:h50ns" target="_ublank"><button id="playButton">Let's Play</button></a></p>
+            <a class="popupGame" href="https://krunker.io/?game=AFR:h50ns" target="_ublank"><img style="border: #FFD700 solid 1px; border-radius: 1em;" src="Images/Krunker.png" alt="foodfight" width="250" height="200"></a>
             
         </div>
         <div class="flex">
             <div class="ProfileFlex"><img style="border: black solid 1px; margin: 1%; border-radius: 10%;" src="Images/login.jpg" alt="profile" width="150 " height="100"><h3 style="color:darkgoldenrod; text-align: center;">MagMa</h3></div> 
-            <p style="margin-left: 3%; margin: 20px;">I am Gobu Palele I like playing girls gammes cause my feminine side allows me to. Btw i don't have enough testosterone in me. Ohw and I'm also a Geographer and i don't have a girl in Cape Town. <br><a href="https://www.cartoonnetworkhq.com/games/dc-super-hero-girls-food-fight/play"><button id="playButton">Let's Play</button></a></p>
-            <a class="popupGame" href="https://www.cartoonnetworkhq.com/games/dc-super-hero-girls-food-fight/play"><img style="border: #FFD700 solid 1px; border-radius: 1em;" src="images/foodfight.jpg" alt="foodfight" width="250" height="200"></a>
+            <p style="margin-left: 3%; margin: 20px;">I am Gobu Palele I like playing girls gammes cause my feminine side allows me to. Btw i don't have enough testosterone in me. Ohw and I'm also a Geographer and i don't have a girl in Cape Town. <br><a href="https://www.cartoonnetworkhq.com/games/dc-super-hero-girls-food-fight/play" target="_ublank"><button id="playButton">Let's Play</button></a></p>
+            <a class="popupGame" href="https://www.cartoonnetworkhq.com/games/dc-super-hero-girls-food-fight/play" target="_ublank"><img style="border: #FFD700 solid 1px; border-radius: 1em;" src="images/foodfight.jpg" alt="foodfight" width="250" height="200"></a>
             
         </div>
         <div class="flex">
@@ -79,9 +80,7 @@
 
 
    </div>
- 
-</body>
-<script>
+ <script>
     function openChat(){
  document.getelementById('chatbox').style.display='block';
  $('.btn-chat').hide();
@@ -94,5 +93,7 @@ $('form').submit(function(){
  var text=$(this).find("textarea[name='msg']").val();
  alert(text);
 });
-</script>   
+</script>  
+</body>
+ 
 </html>
