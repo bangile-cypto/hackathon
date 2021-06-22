@@ -55,7 +55,7 @@ nav a:hover{
 }
 
 h1{
-    text-align: center;
+    text-align: left;
     margin: 20px;
     padding: 10px;
     color: #00308F;
@@ -92,6 +92,15 @@ h1{
     width:37%;
     height: 30%;
 }
+
+iframe{
+    border: #eee solid 1px;
+    box-sizing: border-box;
+    box-shadow: 6px 8px 6px 2px #A0A0A0;
+}
+
+
+
 
 
 
