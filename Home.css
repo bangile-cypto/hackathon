@@ -76,11 +76,12 @@ h1{
 }
 
 #container{
-    margin: 0px auto;
+    margin: 1px;
     width: 500px;
     height: 375px;
-    border: 10px #333 solid;
-    right: 10%;
+    border: 4px #333 solid;
+    left: 10%;
+
     
 }
 
@@ -88,9 +89,47 @@ h1{
     width: 500px;
     height: 375px;
     background-color: #666;
-    right: 10%;
+    left: 10%;
+
 }
 
+.flex{
+    display: inline-flex;
+    border: white solid 1px;
+}
+
+.introduction-Walkers{
+    color: #fff;
+    margin: 10px;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top: 80px;
+}
+
+h2{
+    margin: 20px;
+    font-size: 44px;
+}
+
+button{
+    background-color: #0071c5;
+    border: #fff solid 1px;
+    border-radius: 8px;
+    position: relative;
+    left: 33%;
+    margin: 22px;
+    color: #fff;
+    width: 160px;
+    height: 40px;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background: transparent;
+    border: #fff solid 1px;
+    transition: .4s;
+    text-transform: uppercase;
+}
 
 
 
